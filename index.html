@@ -3,86 +3,96 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Join Telegram</title>
+<title>Number Prediction King</title>
 
-<!-- Meta Pixel -->
+<!-- ✅ META PIXEL CODE -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=true;
+if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 
-// 👉 APNI PIXEL ID YAHAN DALO
-fbq('init', '938424339317761');
+fbq('init', '938424339317761''); // 👉 yaha apna Pixel ID daal
 fbq('track', 'PageView');
 </script>
 
-<!-- Backup Tracking -->
 <noscript>
 <img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=123456789012345&ev=PageView&noscript=1"/>
+src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/>
 </noscript>
+<!-- ✅ END PIXEL -->
 
 <style>
 body {
   margin: 0;
-  font-family: Arial;
-  background: radial-gradient(circle at top, #0a1f2c, #020d14);
-  color: white;
-  text-align: center;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at top, #0a1a3a, #020617);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .container {
-  padding: 40px 20px;
-}
-
-.card {
-  max-width: 400px;
-  margin: auto;
-  padding: 25px;
+  width: 90%;
+  max-width: 380px;
+  background: linear-gradient(180deg, #0b1f4b, #07122a);
   border-radius: 20px;
-  background: rgba(255,255,255,0.05);
-  backdrop-filter: blur(12px);
-  box-shadow: 0 0 30px rgba(0,255,200,0.2);
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 0 40px rgba(0,255,255,0.2);
 }
 
-.live {
-  color: #00ffcc;
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #b0c4de;
   font-size: 14px;
+  margin-bottom: 20px;
 }
 
-h1 {
-  margin: 10px 0;
+.list {
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.8;
 }
 
-p {
-  color: #aaa;
+.list span {
+  display: block;
 }
 
 .btn {
-  display: block;
-  margin-top: 20px;
-  padding: 15px;
+  margin-top: 25px;
+  display: inline-block;
+  background: linear-gradient(90deg, #00ff7f, #00cc66);
+  padding: 14px 25px;
   border-radius: 30px;
+  color: #000;
   font-weight: bold;
   text-decoration: none;
-  color: black;
-  background: linear-gradient(90deg,#00ffcc,#ffcc00);
+  box-shadow: 0 0 20px rgba(0,255,127,0.6);
+  transition: 0.3s;
 }
 
-.features {
-  margin-top: 25px;
-  color: #ccc;
+.btn:hover {
+  transform: scale(1.05);
 }
 
 .footer {
-  margin-top: 25px;
-  color: #888;
+  margin-top: 15px;
   font-size: 12px;
+  color: #aaa;
 }
 </style>
 
@@ -92,35 +102,32 @@ p {
 
 <div class="container">
 
-<div class="card">
-  <div class="live">● LIVE</div>
+  <div class="title">🚀 NUMBER PREDICTION KING</div>
+  <div class="subtitle">Join Telegram & Start Earning Daily Profit</div>
 
-  <h1>JOIN TELEGRAM</h1>
-  <p>Get instant updates & daily signals</p>
-
-  <!-- ✅ BEST TRACKING BUTTON -->
-  <a href="#" class="btn" onclick="trackAndRedirect()">
-     🚀 JOIN TELEGRAM
-  </a>
-
-  <div class="features">
-    ⚡ Study Updates <br>
-    🔒 Trusted Channel <br>
-    👥 1000+ Members
+  <div class="list">
+    <span>✅ 90%+ Accurate Signals</span>
+    <span>⚡ Instant Entry & Exit Alerts</span>
+    <span>📈 Daily Profit Opportunities</span>
+    <span>🧠 Beginner Friendly Guidance</span>
+    <span>💬 24/7 Support Available</span>
   </div>
 
-  <div class="footer">Powered by Vk Pages</div>
-</div>
+  <!-- ✅ BUTTON WITH TRACKING -->
+  <a href="https://t.me/+Qb7TG0uNKsEyNTU1" class="btn" onclick="trackJoin()">
+    🔥 Join Telegram Now
+  </a>
+
+  <div class="footer">
+    Limited Seats • Join Fast ⏳
+  </div>
 
 </div>
 
+<!-- ✅ BUTTON CLICK TRACKING -->
 <script>
-function trackAndRedirect(){
-  fbq('track','Lead');
-
-  setTimeout(function(){
-    window.location.href = "https://t.me/+OtLLjplyhkYzNTVl";
-  }, 500); // delay for perfect tracking
+function trackJoin() {
+  fbq('track', 'Lead'); // ya 'CompleteRegistration' bhi use kar sakte ho
 }
 </script>
 
